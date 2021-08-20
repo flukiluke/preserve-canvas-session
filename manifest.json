@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Preserve Canvas Session",
+  "version": "0.1",
+
+  "description": "Stops Canvas session cookies being cleared on exit.",
+
+  "icons": {
+    "48": "icons/canvas-48.png"
+  },
+
+  "background": {
+      "scripts": ["preserve.js"]
+  },
+
+  "permissions": ["cookies","<all_urls>", "tabs"]
+
+}
